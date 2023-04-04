@@ -1,0 +1,8 @@
+.compatibility-photos{
+    background-image: url(./photosCompatibility/puzzle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10vh;
+    height: 10vh;
+    align-self: center;
+}

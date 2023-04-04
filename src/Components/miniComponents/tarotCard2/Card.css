@@ -1,0 +1,153 @@
+  .main-div{
+    width: 90%;
+    height: fit-content;
+    background-color:rgb(57, 58, 54);
+    margin: 5vh auto;
+    padding: 2vh 0;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .cards-flex-div {
+    width: 85%;
+    height: auto;
+    min-height: 30vw;
+    background-color:rgb(179, 187, 143);
+    margin: 5vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vh 1vh;
+    border-radius: 3%;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .card-torot {
+    width: 90%;
+    max-width: 20%;
+    height: auto;
+    height: 20vw;
+    margin-right: 3%;
+    background-image: url(../tarotcard/photosTarot/tarotcard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    opacity:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 4vh;
+  }
+  
+  .click-on-card{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  
+  .imageFront {
+    padding: 5vh;
+    background-image: none;
+    height: 30vw;
+    background-color: rgb(57, 58, 54);
+    text-align: center;
+    font-size: 1rem;
+    height: auto;
+  }
+ .imageFront.flipped {
+    transform: rotate(360deg) scale(1);
+  }
+ 
+  .name, .key-word, .desc-word{
+    color: rgb(210, 214, 150);
+    font-weight:400;
+  }
+  .name{
+    font-weight: bolder;
+    color:rgba(255, 200, 0, 0.768);
+  }
+  .card-name{
+    color: white;
+    z-index: 5;
+    position: relative;
+    font-weight: 400;
+  }
+  @media only screen and (max-width: 1200px) {
+    .cards-flex-div {
+      width: 80%;
+      flex-direction: row;
+    }
+    .card-torot {
+      width: 30%;
+      margin-right: 3%;
+
+    }}
+    .imageFront{
+      width: 100%;
+      height: auto;
+      padding: 4vh;
+      box-sizing: border-box;
+      font-size: 1rem;
+    }
+    @media only screen and (max-width: 900px) {
+      .cards-flex-div {
+        width: 80%;
+        flex-direction: column; 
+     align-items: center;
+     padding: 4vh;
+      }
+      .card-torot {
+        width: 30%;
+        max-width: 50%;
+        margin-right: 3%;
+      }
+    }
+    .imageFront{
+      margin-top: 5vh;
+      width: fit-content;
+      padding: 10vh;
+      box-sizing: border-box;
+      font-size: 90%;
+      overflow-wrap: break-word;
+    }
+    @media only screen and (max-width: 600px) {
+      .main-div{
+
+        margin: 5vh 2vw;
+        padding: 2vh 2vw;
+      }
+      .name, .key-word, .desc-word{
+        font-size: 0.7em;
+      }
+      .desc{
+        font-size: 0.6em;
+      }
+      .cards-flex-div {
+      width: 80%;
+      height: auto;
+      margin: 3vh auto;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      }
+      .card-torot {
+      max-width: 100%;
+      margin-right: 0;
+      padding: 5vh;
+      }
+      .imageFront {
+      width: 90%;
+      padding: 5vh;
+      box-sizing: border-box;
+      font-size: 70%;
+      overflow-wrap: break-word;
+      }
+      .click-on-card{
+        color: white;
+        font-size: 0.9em;
+        font-weight: 400;
+      }
+      
+      }

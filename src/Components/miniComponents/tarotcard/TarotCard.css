@@ -1,0 +1,35 @@
+.information-tarot{
+  padding: 2vh;
+    margin: 0 auto;
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10vh;
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(179, 187, 143);
+    opacity: 0.8;
+    border-radius: 30px;
+    justify-content: center;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+   
+}
+.card-photos{
+    background-image: url(./photosTarot/tarots.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:20vh;
+    height: 20vh;
+    align-self: center;
+  }
+.tarot-information{
+    padding-left: 5vh;
+    align-self: center;
+}
+@media only screen and (max-width: 600px){
+  .information-tarot{
+    margin-top: 25vh;
+  }
+}

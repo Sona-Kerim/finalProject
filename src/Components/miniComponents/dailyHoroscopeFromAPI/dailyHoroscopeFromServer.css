@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    .title{
+    color:green;
+    font-weight: bold;
+    }
+   .horoscope-text{
+    margin-top: 5vh;
+   }
+    .daily-information{
+    text-align: center;
+    padding: 1vh 5vh 2vh 2vh;
+    width: 90%;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: rgb(179, 187, 143);
+    opacity: 0.9;
+    border-radius: 30px;
+    justify-content: center;
+    position: absolute;
+    left: 5vw;
+    margin-top: 5vh;
+    box-sizing: border-box;
+    }
+    @media only screen and (max-width: 768px) {
+    .daily-information {
+    width: 80%;
+    left: 10vw;
+    font-size: 14px;
+    }
+    }
+    .title{
+    color:green;
+    font-weight: bold;
+    }
+    .horoscope-text{
+    margin-top: 5vh;
+    }
+    
+    
+    
+    
+    
+    

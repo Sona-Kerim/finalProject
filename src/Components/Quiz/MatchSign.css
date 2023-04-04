@@ -1,0 +1,112 @@
+.quiz-container {
+    max-width: 50vw;
+    margin: 20vh auto;
+    padding: 2vw;
+    background-color: #b3bb8f;
+    border-radius: 10px;
+  }
+.correct{
+  color:green
+}
+  .zodiac-quiz {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+   .question {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: red;
+  } 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+   .select-quiz {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  } 
+  .btn, .next-question-button {
+    padding: 1vw;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
+  .result-message {
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  .next-question-button {
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-question-button:hover {
+    background-color: #0c7cd5;
+  }
+  .correct{
+    color:#09a80c;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 600px) {
+.quiz-container {
+  margin: 30vh auto;
+  padding: 3vw;
+ 
+  }
+  .question {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  } 
+  .btn, .next-question-button {
+    padding: 1vw;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .select-quiz {
+    width: 90%;
+    max-width: 200px;
+    padding: 1vw;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  } 
+  .zodiac-quiz {
+    font-size: 20px;
+  }
+}

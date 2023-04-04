@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.photo-and-select{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10vh;
+    width: 90%;
+    height: fit-content;
+    background-color: rgb(179, 187, 143);
+    opacity: 0.8;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+
+.for-sign-tablo-photo{
+    width: 20%;
+    height: 30vh;
+    opacity: 5;
+    background-image: url(./photosDailyHoroscope/zodiag.png);
+    filter: brightness(120%);
+    filter: saturate(80%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.information{
+    width: 50vh;
+    color: rgb(13, 14, 13);
+    font-weight: bolder;
+    font-size: 0.9em ;
+    margin-bottom: 3vh;
+}
+.select{
+    align-self: flex-end;
+    position: absolute;
+    left: 48%;
+    top: 55%;
+}
+
+.selectSign, .selectDate{
+ 
+    margin-right: 5vh;
+    width: fit-content;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: bold;
+}
+.see-result-button{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    color: green;
+    border-radius: 10%;
+    font-weight: bold;
+    transition: 0.4s;
+    padding: 5px;
+}
+
+.see-result-button:hover{
+    background-color: rgb(193, 193, 193);   
+}
+
+@media (max-width: 991px) {
+  .photo-and-select {
+    height: auto;
+    min-height: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh;
+    margin-top: 20vh;
+  }
+
+  .for-sign-tablo-photo {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .information {
+    width: 90%;
+    text-align: center;
+  }
+
+  .select {
+    margin: 0 auto;
+    position: static;
+    margin-top: 1rem;
+  }
+
+  .see-result-button {
+    position: static;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+    .photo-and-select {
+      height: auto;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 30vh;
+    }
+  
+    .for-sign-tablo-photo {
+      width: 50%;
+      height: auto;
+      margin-bottom: 5vh;
+    }
+  
+    .information {
+      width: 80%;
+      font-size: 0.8em;
+      text-align: center;
+    }
+  
+    .select {
+      position: static;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+      left: auto;
+      top: auto;
+      transform: none;
+    }
+  
+    .see-result-button {
+      position: relative;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+     margin-left: auto;
+     left: auto;
+      top: auto;
+      transform: none;
+      font-size: 1rem;
+    }
+    .selectSign, .selectDate{
+      margin-right: 5vh;
+      width: fit-content;
+      max-width: 70%;
+      font-size: 0.7rem;
+      background-color: white;
+      border-radius: 10%;
+      font-weight: bold;
+  }
+  }
+  

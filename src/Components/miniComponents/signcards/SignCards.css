@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h5 {
+    color: white;
+    font-size: 1em;
+  }
+  
+  .div-cards {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20vh;
+    justify-content: center;
+    padding: 2vh;
+  }
+  
+  .card {
+    width: 20%;
+    height: 220px;
+    border: 1px solid;
+    margin-left: 3vh;
+    margin-bottom: 5vh;
+    box-sizing: border-box;
+    background-color: rgb(38, 37, 35);
+    opacity: 0.9;
+    border-radius: 5px;
+    transition: 0.5s;
+    padding-left: 1vh;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card:not(:hover) {
+    transform: scale(0.8);
+  }
+  
+  .signPhotos {
+    width: 35%;
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .Aries {
+    background-image: url(./photos/aries2\ \(1\).png);
+  }
+  
+  .Taurus {
+    background-image: url(./photos/tharousİcon.png);
+  }
+  
+  .Gemini {
+    background-image: url(./photos/Geminiİcon.png);
+  }
+  
+  .Cancer {
+    background-image: url(./photos/Cancerİcon.png);
+  }
+  
+  .Virgo {
+    background-image: url(./photos/virgoİcon.png);
+  }
+  
+  .Pisces {
+    background-image: url(./photos/piacesİcon.png);
+  }
+  
+  .Aquarius {
+    background-image: url(./photos/aquaİcon.png);
+  }
+  
+  .Scorpio {
+    background-image: url(./photos/scarpioİcon.png)
+  }
+  
+  .Leo {
+    background-image: url(./photos/Leoİcon.png);
+  }
+  
+  .Libra {
+    background-image: url(./photos/Libraİcon.png);
+  }
+  
+  .Capricorn {
+    background-image: url(./photos/capricornİcon.png);
+  }
+  
+  .Sagittarius {
+    background-image: url(./photos/sagİcon.png);
+  }
+  
+  .burc {
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    max-width: 800px;
+    margin: 2vh auto;
+    min-height: 5vh;
+    position: relative;
+    top: 23vh;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .div-cards {
+      margin-top: 11vh;
+      width: 90%;
+      top: 10vh;
+      padding: 1vh;
+      padding-left: 2vh;
+    }
+  
+    .card {
+      width: 45%;
+      height: 220px;
+      margin-left: 0;
+      margin-right: 2vh;
+    }
+  
+    .burc {
+      top: 10vh;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+  
+    .card {
+      width: 90%;
+      height: 200px;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 3vh;
+      font-size: 12px;
+    }
+  
+    .burc {
+      display: none;
+    }
+  
+    .signs {
+      display: none;
+    }
+  }
+  

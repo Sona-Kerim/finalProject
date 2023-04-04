@@ -1,0 +1,100 @@
+.chooseSign-container {
+    display: flex;
+    width: 82%;
+    height: fit-content;
+    background-color: rgb(179, 187, 143);
+    margin: 1vh auto;
+    border-radius: 30px;
+    justify-content: center;
+  }
+  .sign-name{
+    color: red;
+    font-weight: bold;
+  }
+  .choose-sign-word{
+    margin-bottom: 3vh;
+    font-weight: bolder;
+    color:black;
+  }
+  
+  .container-one, .container-two, .result-container, .button-container{
+    border: 0.3px solid  rgb(179, 187, 143);
+    border-style: inherit;
+    padding: 2vh;
+  }
+  
+  .sign-button{
+    background-color: white; 
+    border: none; 
+    color: black; 
+    padding: 16px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 4px; 
+    transition-duration: 0.4s;
+  }
+  
+  .sign-button:hover{
+    background-color: #757575; 
+    color: white;
+  }
+  
+  .sign-button.selected {
+    background-color: #3e8e41;
+    color: #fff;
+  }
+  .result-container{
+    padding: 2vh;
+  }
+  @media only screen and (max-width: 900px) {
+    .chooseSign-container {
+      flex-direction: column;
+      width: 90%;
+      margin: 2vh auto;
+      border-radius: 10px;
+    }
+  
+    .choose-sign-word{
+      margin-bottom: 2vh;
+      font-size: 1.2rem;
+    }
+  
+    .container-one, .container-two, .result-container, .button-container{
+      padding: 1vh;
+    }
+  
+    .sign-button{
+      font-size: 1rem; 
+      margin: 2px;
+      padding: 10px 20px;
+    }
+   
+  }
+  @media only screen and (max-width: 480px) {
+    .chooseSign-container {
+      width: 90%;
+      margin: 2vh auto;
+      border-radius: 0;
+    }
+  
+    .choose-sign-word{
+      margin-bottom: 1vh;
+      font-size: 1.1rem;
+    }
+  
+    .container-one, .container-two, .result-container, .button-container{
+      padding: 1vh;
+      
+    }
+  
+    .sign-button{
+      font-size: 0.9rem; 
+      margin: 2px;
+      padding: 8px 16px;
+    }
+  }
+  
