@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/finalProject/static/css/main.75260299.css",
+    "main.js": "/finalProject/static/js/main.6c3036d5.js",
+    "static/js/787.bd02f72e.chunk.js": "/finalProject/static/js/787.bd02f72e.chunk.js",
+    "static/media/sagİcon.png": "/finalProject/static/media/sagİcon.94bfaf3ef0d0fb2fc057.png",
+    "static/media/capricornİcon.png": "/finalProject/static/media/capricornİcon.f658992e3a364133d3e0.png",
+    "static/media/Leoİcon.png": "/finalProject/static/media/Leoİcon.d31a58e0ca05577ed02b.png",
+    "static/media/virgoİcon.png": "/finalProject/static/media/virgoİcon.16a6e77560cc7e876b86.png",
+    "static/media/piacesİcon.png": "/finalProject/static/media/piacesİcon.39f2c7824ab50aa0856f.png",
+    "static/media/Geminiİcon.png": "/finalProject/static/media/Geminiİcon.794d07e1a1ff7187a42f.png",
+    "static/media/Cancerİcon.png": "/finalProject/static/media/Cancerİcon.414533a10d568e5757d1.png",
+    "static/media/tarots.png": "/finalProject/static/media/tarots.3e3a6854f05e2a6e34a8.png",
+    "static/media/zodiag.png": "/finalProject/static/media/zodiag.ac79da78b7a3111399da.png",
+    "static/media/tarotcard.png": "/finalProject/static/media/tarotcard.6f53a4d128fcc29fa275.png",
+    "static/media/tharousİcon.png": "/finalProject/static/media/tharousİcon.c3775e4e455e178b8705.png",
+    "static/media/lightBackgroung.jpg": "/finalProject/static/media/lightBackgroung.350691291993030aa285.jpg",
+    "static/media/backgroundPhoto.jpg": "/finalProject/static/media/backgroundPhoto.957821da7aa27d89246f.jpg",
+    "static/media/aquaİcon.png": "/finalProject/static/media/aquaİcon.30154979a82107613e6b.png",
+    "static/media/scarpioİcon.png": "/finalProject/static/media/scarpioİcon.250052e3887b6c88c01c.png",
+    "static/media/Libraİcon.png": "/finalProject/static/media/Libraİcon.6d90e00f7ab80e3d517a.png",
+    "static/media/aries2 (1).png": "/finalProject/static/media/aries2 (1).39f28f7070b4a0d80d46.png",
+    "static/media/puzzle.png": "/finalProject/static/media/puzzle.5d465836150b5489a365.png",
+    "index.html": "/finalProject/index.html",
+    "main.75260299.css.map": "/finalProject/static/css/main.75260299.css.map",
+    "main.6c3036d5.js.map": "/finalProject/static/js/main.6c3036d5.js.map",
+    "787.bd02f72e.chunk.js.map": "/finalProject/static/js/787.bd02f72e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75260299.css",
+    "static/js/main.6c3036d5.js"
+  ]
+}
